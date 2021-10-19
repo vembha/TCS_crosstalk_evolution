@@ -1,5 +1,5 @@
-# **CODE REPOSITORY FOR THE PUBLICATION**
-## An evolutionary paradigm favoring crosstalk between bacterial two-component signaling systems
+# **Code repository for the publication:**
+# An evolutionary paradigm favoring crosstalk between bacterial two-component signaling systems
 ### Bharadwaj Vemparala, Arjun Valiya Parambathu, Deepak Kumar Saini, Narendra M Dixit
 <br/>
 <br/>
