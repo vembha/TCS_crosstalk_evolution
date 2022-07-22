@@ -5,15 +5,16 @@ decay_factor = 500;         % Time for input signal to decay by 1000 fold
 time_diff = 500;            % Time gap between input signals
 sim_time = 2*N*time_diff;   % Total simulation time
 fitness = zeros(20,2^(N*(N-1)));
+num_gamma = 20;             % Number of values of gamma for which the estimation needs to be carried
 %% FITNESS EVALUATION OF FOR ALL POSSIBLE PHENOTYPES
-for i=1:20
+for i=1:num_gamma
     gamma = i/100;
     fitness(i,:) = non_path_evaluator(N,gamma,decay_factor,time_diff,sim_time);
     i
 end
 delete(gcp);
 %% ESTIMATING THE PHENOTYPE WITH MAXIMUM FITNESS
-for i=1:20
+for i=1:num_gamma
     [max_fit, max_index] = max(fitness');
 end
 %% SAVING THE REQUIRED VARIABLES
