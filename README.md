@@ -3,7 +3,7 @@
 ### Bharadwaj Vemparala, Arjun Valiya Parambathu, Deepak Kumar Saini, Narendra M Dixit
 ### https://www.biorxiv.org/content/10.1101/2022.05.18.492451v1
 
-#### Numercial packages used: MATLAB® 2020b Update 7; MEGA (Molecular Evolutionary Genetics Analysis) 7.0
+#### Numerical packages used: MATLAB® 2020b Update 7; MEGA (Molecular Evolutionary Genetics Analysis) 7.0
 <br/>
 <br/>
 
